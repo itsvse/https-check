@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "https-check": {
+      "commandName": "Project",
+      "commandLineArgs": "https://www.itsvse.com"
+    }
+  }
+}
