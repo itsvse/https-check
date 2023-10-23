@@ -11,7 +11,7 @@
     <PackAsTool>true</PackAsTool>
     <PackageId>https-check</PackageId>
     <ToolCommandName>https-check</ToolCommandName>
-    <Version>1.0.0</Version>
+    <Version>1.0.1</Version>
     <Authors>itsvse</Authors>
     <Copyright>Copyright © 2023 itsvse.com</Copyright>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
