@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <TargetFrameworks>netcoreapp3.1;net5.0;net6.0;net7.0</TargetFrameworks>
+    <TargetFrameworks>netcoreapp3.1;net5.0;net6.0;net7.0;net8.0</TargetFrameworks>
     <RootNamespace>https_check</RootNamespace>
     <LangVersion>latest</LangVersion>
     <ImplicitUsings>enable</ImplicitUsings>
@@ -11,7 +11,7 @@
     <PackAsTool>true</PackAsTool>
     <PackageId>https-check</PackageId>
     <ToolCommandName>https-check</ToolCommandName>
-    <Version>1.0.1</Version>
+    <Version>1.0.2</Version>
     <Authors>itsvse</Authors>
     <Copyright>Copyright © 2023 itsvse.com</Copyright>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
@@ -23,5 +23,9 @@
   </PropertyGroup>
   <ItemGroup>
     <None Include="..\README.md" Pack="true" Link="README.md" PackagePath="\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="ConsoleTables" Version="2.6.1" />
+    <PackageReference Include="McMaster.Extensions.CommandLineUtils" Version="4.1.0" />
   </ItemGroup>
 </Project>
