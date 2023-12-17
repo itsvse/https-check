@@ -2,7 +2,7 @@
   "profiles": {
     "https-check": {
       "commandName": "Project",
-      "commandLineArgs": "https://www.itsvse.com"
+      "commandLineArgs": "https://imququ.com/post/enable-tls-1-3.html"
     }
   }
 }
